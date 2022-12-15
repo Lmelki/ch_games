@@ -1,0 +1,163 @@
+ERROR - 2022-12-15 03:28:43 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:28:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:31:31 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:31:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:32:47 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:32:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:32:50 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:32:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:32:50 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:32:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:33:02 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:33:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2022-12-15 03:34:28 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-12-15 03:34:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+INFO - 2022-12-15 03:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:35:09 --> CSRF cookie sent.
+INFO - 2022-12-15 03:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 03:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 04:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 07:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 07:23:30 --> CSRF cookie sent.
+INFO - 2022-12-15 07:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-12-15 07:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
