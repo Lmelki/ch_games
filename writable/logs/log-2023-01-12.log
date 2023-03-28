@@ -1,0 +1,309 @@
+INFO - 2023-01-12 02:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:22:55 --> CSRF cookie sent.
+INFO - 2023-01-12 02:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:53:57 --> CSRF cookie sent.
+INFO - 2023-01-12 02:53:58 --> CSRF cookie sent.
+INFO - 2023-01-12 02:53:59 --> CSRF cookie sent.
+INFO - 2023-01-12 02:53:59 --> CSRF cookie sent.
+INFO - 2023-01-12 02:53:59 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:00 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:00 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:01 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:01 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:02 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:02 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:03 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:03 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:04 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:04 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:05 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:05 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:06 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:06 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:07 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:07 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:09 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:09 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:11 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:11 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:13 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:13 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:14 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:14 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:16 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:16 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:16 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:17 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:17 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:18 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:18 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:19 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:19 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:20 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:20 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:20 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:21 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:21 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:23 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:23 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:23 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:24 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:24 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:25 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:25 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:25 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:26 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:26 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:26 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:27 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:27 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:28 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:28 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:28 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:29 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:29 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:30 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:30 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:30 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:31 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:31 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:32 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:32 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:32 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:33 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:33 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:34 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:34 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:35 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:35 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:35 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:36 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:36 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:37 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:37 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:38 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:38 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:39 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:39 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:40 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:40 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:40 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:41 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:41 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:41 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:42 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:42 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:43 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:43 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:44 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:44 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:44 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:45 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:45 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:45 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:46 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:46 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:47 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:47 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:48 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:48 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:48 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:49 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:49 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:50 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:50 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:50 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:51 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:51 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:52 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:52 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:52 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:53 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:53 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:54 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:54 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:55 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:55 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:56 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:57 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:57 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:57 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:58 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:58 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:59 --> CSRF cookie sent.
+INFO - 2023-01-12 02:54:59 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:00 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:00 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:01 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:02 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:02 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:03 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:03 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:03 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:04 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:04 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:05 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:05 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:05 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:06 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:06 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:07 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:07 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:08 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:09 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:09 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:10 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:11 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:11 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:12 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:13 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:13 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:14 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:14 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:15 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:16 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:16 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:17 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:17 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:18 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:18 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:18 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:19 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:19 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:19 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:20 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:20 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:21 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:21 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:21 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:22 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:23 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:23 --> CSRF cookie sent.
+INFO - 2023-01-12 02:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:30:53 --> CSRF cookie sent.
+INFO - 2023-01-12 04:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:33:10 --> Used the default controller.
+INFO - 2023-01-12 04:33:10 --> Used the default controller.
+INFO - 2023-01-12 04:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:33:40 --> Used the default controller.
+INFO - 2023-01-12 04:33:40 --> Used the default controller.
+INFO - 2023-01-12 04:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:37:26 --> Used the default controller.
+INFO - 2023-01-12 04:37:27 --> Used the default controller.
+INFO - 2023-01-12 04:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:40:02 --> Used the default controller.
+INFO - 2023-01-12 04:40:02 --> Used the default controller.
+INFO - 2023-01-12 04:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:53:07 --> REDIRECTED ROUTE at Visiteur/prodById/$1
+CRITICAL - 2023-01-12 04:53:07 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): ...', 'C:\\Users\\BTS SI...', 438)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\HTTP\ResponseTrait.php(438): str_replace(Array, '', NULL)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(987): CodeIgniter\HTTP\Response->send()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-12 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:54:31 --> REDIRECTED ROUTE at Visiteur/prodById/$1
+CRITICAL - 2023-01-12 04:54:31 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): ...', 'C:\\Users\\BTS SI...', 438)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\HTTP\ResponseTrait.php(438): str_replace(Array, '', NULL)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(987): CodeIgniter\HTTP\Response->send()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-12 04:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 04:54:46 --> REDIRECTED ROUTE at Visiteur/prodById/$1
+CRITICAL - 2023-01-12 04:54:46 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): ...', 'C:\\Users\\BTS SI...', 438)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\HTTP\ResponseTrait.php(438): str_replace(Array, '', NULL)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(987): CodeIgniter\HTTP\Response->send()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-12 05:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:08:51 --> REDIRECTED ROUTE at Visiteur/prodById/$1
+CRITICAL - 2023-01-12 05:08:51 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): ...', 'C:\\Users\\BTS SI...', 438)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\HTTP\ResponseTrait.php(438): str_replace(Array, '', NULL)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(987): CodeIgniter\HTTP\Response->send()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-12 05:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:09:52 --> REDIRECTED ROUTE at Visiteur::prodById/$1
+CRITICAL - 2023-01-12 05:09:52 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): ...', 'C:\\Users\\BTS SI...', 438)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\HTTP\ResponseTrait.php(438): str_replace(Array, '', NULL)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(987): CodeIgniter\HTTP\Response->send()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-12 05:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-12 05:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

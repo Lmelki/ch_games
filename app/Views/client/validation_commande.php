@@ -27,9 +27,9 @@
                          <tr>
                              <td>
                                  <?php if (!empty($item['image'])) { ?>
-                                     <img src="<?= base_url() . '/assets/images/' . $item['image'] . '.jpg' ?>" width="80" />
+                                     <img src="<?php echo base_url() . '/assets/images/' . $item['image'] . '.jpg' ?>" width="80" />
                                  <?php } else { ?>
-                                     <img src="<?= base_url() . '/assets/images/nonimage.jpg' ?>" width="80" />
+                                     <img src="<?php echo base_url() . '/assets/images/nonimage.jpg' ?>" width="80" />
                                  <?php } ?>
                              </td>
                              <td><?php echo $item['name']; ?></td>

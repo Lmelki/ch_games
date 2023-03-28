@@ -11,10 +11,10 @@
          <?php $count=0; foreach ($lesProduits as $unProduit){$count++; ?>
           
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-2">
             <div class="product-grid">
                 <div class="product-image">
-                <a href="<?= base_url().'/index.php/Visiteur/voir_un_produit/'.$unProduit["NOPRODUIT"]?>">
+                <a href="<?php echo base_url('/jeux/'. $unProduit["NOMIMAGE"]).$unProduit["NOPRODUIT"]?>">
                                    <?php  
                                    if(!empty($unProduit["NOMIMAGE"])) echo img_class($unProduit["NOMIMAGE"].'.jpg', $unProduit["LIBELLE"],'img-responsive image');
                                    else echo img_class('nonimage.jpg', $unProduit["LIBELLE"],'img-responsive image');
@@ -22,7 +22,7 @@
                                    </a>
                 </div>
                 <div class="product-content">
-                    <h3 class="title"><a href="<?= base_url().'/index.php/Visiteur/voir_un_produit/'.$unProduit["NOPRODUIT"]?>"><?php echo $unProduit["LIBELLE"] ?></a>
+                    <h3 class="title"><a href="<?php echo base_url().'/index.php/Visiteur/voir_un_produit/'.$unProduit["NOPRODUIT"]?>"><?php echo $unProduit["LIBELLE"] ?></a>
                     <?php if($session->get('statut')==3){?>
                                    <a href="<?php echo site_url('AdministrateurSuper/Vitrine/'.$unProduit["NOPRODUIT"]);  ?>"><?php if($unProduit['VITRINE']==1){ echo "<i class='fas fa-star fav'></i>";}else{echo "<i class='far fa-star fav'></i>";}?> </a>
                               <?php }?></h3>
@@ -52,7 +52,7 @@
 
  </div>
  
- <p><?= $pager->links() ?></p>
+ <p><?php echo $pager->links() ?></p>
  
  </div>
  

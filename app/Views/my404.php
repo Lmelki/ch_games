@@ -5,7 +5,7 @@
 <head>
 
   <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() . 'assets/images/favicon.ico' ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php base_url('assets/images/favicon.ico') ?>">
   <title>ChopesGames</title>
 
 </head>
@@ -18,7 +18,7 @@
     <h1>404</h1>
 
     <?php if (!empty($message) && $message !== '(null)') : ?>
-      <?= esc($message) ?>
+      <?php echo esc($message) ?>
     <?php else : ?>
       Désolé ! Page inconnue.
     <?php endif ?>
@@ -55,7 +55,7 @@
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
-    background: url(<?= base_url() . '/assets/images/404.jpg' ?>) center no-repeat;
+    background: url(<?php base_url('/assets/images/404.jpg') ?>) center no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }

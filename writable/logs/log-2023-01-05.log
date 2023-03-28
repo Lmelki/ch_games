@@ -1,0 +1,369 @@
+INFO - 2023-01-05 02:50:14 --> CSRF cookie sent.
+INFO - 2023-01-05 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 02:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 02:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:02:44 --> Undefined variable $messages
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 329)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-05 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:09:12 --> Undefined variable $validation
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\se_connecter.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 9)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/se_con...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(333): view('visiteur/se_con...', Array)
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 03:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:10:48 --> Undefined variable $validation
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\se_connecter.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 9)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/se_con...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(333): view('visiteur/se_con...', Array)
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 03:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:10:56 --> Undefined variable $validation
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\se_connecter.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 9)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/se_con...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(333): view('visiteur/se_con...', Array)
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 03:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:11:02 --> Undefined variable $validation
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\se_connecter.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 9)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/se_con...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(333): view('visiteur/se_con...', Array)
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 03:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 03:11:28 --> Undefined variable $validation
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\se_connecter.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 9)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/se_con...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(333): view('visiteur/se_con...', Array)
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->se_connecter()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 03:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 03:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 04:50:11 --> Unclosed '{' on line 362
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('visiteur/connex...')
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('visiteur/connex...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#6 {main}
+INFO - 2023-01-05 04:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 04:51:04 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(414): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 04:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 04:56:28 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(414): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 04:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 04:56:32 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(414): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 04:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 04:56:39 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(414): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 04:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:58:30 --> CSRF cookie sent.
+INFO - 2023-01-05 04:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 04:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 05:00:04 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(416): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 05:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 05:01:53 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(416): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 05:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 05:02:44 --> Undefined variable $TitreDeLaPage
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\app\Views\visiteur\connexion_administrateur.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\BTS SI...', 2)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(214): include('C:\\Users\\BTS SI...')
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\Common.php(1097): CodeIgniter\View\View->render('visiteur/connex...', Array, true)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(416): view('visiteur/connex...')
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->connexion_administrateur()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#10 {main}
+INFO - 2023-01-05 05:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 05:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 06:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 06:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:29:02 --> CSRF cookie sent.
+INFO - 2023-01-05 07:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 07:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 08:20:25 --> CodeIgniter\Validation\Rules::matches(): Argument #2 ($field) must be of type string, null given, called in C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php on line 277
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->matches('azerty123', NULL)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('txtConfirmMdp', 'txtConfirmMdp', 'azerty123', Array, Array)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(266): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->s_enregistrer()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#9 {main}
+INFO - 2023-01-05 08:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 08:20:39 --> CodeIgniter\Validation\Rules::matches(): Argument #2 ($field) must be of type string, null given, called in C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php on line 277
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->matches('azerty123', NULL)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('txtConfirmMdp', 'txtConfirmMdp', 'azerty123', Array, Array)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(266): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->s_enregistrer()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#9 {main}
+INFO - 2023-01-05 08:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 08:21:05 --> CodeIgniter\Validation\Rules::matches(): Argument #2 ($field) must be of type string, null given, called in C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php on line 277
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->matches('123', NULL)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('txtConfirmMdp', 'txtConfirmMdp', '123', Array, Array)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(266): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->s_enregistrer()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#9 {main}
+INFO - 2023-01-05 08:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-05 08:23:02 --> CodeIgniter\Validation\Rules::matches(): Argument #2 ($field) must be of type string, null given, called in C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php on line 277
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->matches('aze', NULL)
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('txtConfirmMdp', 'txtConfirmMdp', 'aze', Array, Array)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(266): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->s_enregistrer()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#9 {main}
+INFO - 2023-01-05 08:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:29:34 --> CSRF cookie sent.
+INFO - 2023-01-05 09:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-05 09:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

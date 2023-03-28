@@ -8,34 +8,33 @@
                             <br>
                             <h3 class="text-center text-primary"><?php echo $TitreDeLaPage ?></h3>
                             <?PHP if($TitreDeLaPage=='Corriger votre formulaire') echo service('validation')->listErrors();
-                             if(!isset($txtNom)) $txtNom=''; if(!isset($txtPrenom)) $txtPrenom=''; if(!isset($txtAdresse)) $txtAdresse=''; if(!isset($txtVille)) $txtVille=''; if(!isset($txtCP)) $txtCP=''; if(!isset($txtEmail)) $txtEmail=''; ?>
-                                <label for="txtNom" class="text-primary">Nom</label><br>
-                                <input class="form-control" type="input" name="txtNom" value="<?php echo set_value('txtNom', $txtNom); ?>" />
-
-                                <label for="txtPrenom" class="text-primary">Prénom</label><br>
-                                <input class="form-control" type="input" name="txtPrenom" value="<?php echo set_value('txtPrenom', $txtPrenom); ?>" />
-
-                                <label for="txtAdresse" class="text-primary">Adresse</label><br>
-                                <input class="form-control" type="input" name="txtAdresse" value="<?php echo set_value('txtAdresse', $txtAdresse); ?>" />
-
-                                <label for="txtVille" class="text-primary">Ville</label><br>
-                                <input class="form-control" type="input" name="txtVille" value="<?php echo set_value('txtVille', $txtVille); ?>" />
-
-                                <label for="txtCP" class="text-primary">Code Postal</label><br>
-                                <input class="form-control" type="input" name="txtCP" value="<?php echo set_value('txtCP', $txtCP); ?>" />
-
-                                <label for="txtEmail" class="text-primary">Email</label><br>
-                                <input class="form-control" type="input" name="txtEmail" value="<?php echo set_value('txtEmail', $txtEmail); ?>" />
-
-                                <label for="txtMdp" class="text-primary">Mot de passe</label><br>
-                                <input class="form-control" type="password" name="txtMdp" id="mdp" value="<?php echo set_value('txtMdp'); ?>" />
+                             if(!isset($txtNom)) $txtNom=''; if(!isset($txtPrenom)) $txtPrenom=''; if(!isset($txtAdresse)) $txtAdresse=''; if(!isset($txtVille)) $txtVille=''; if(!isset($txtCP)) $txtCP=''; if(!isset($txtEmail)) $txtEmail=''; 
+                             
+                                echo form_input('txtNom', set_value('txtNom', $txtNom),['placeholder' => 'Nom', 'class'=>'form-control']);
+                                echo '<br>';
+                                echo form_input('txtPrenom', set_value('txtPrenom', $txtPrenom),['placeholder' => 'Prénom', 'class'=>'form-control']);
+                                echo '<br>';
+                                echo form_input('txtAdresse', set_value('txtAdresse', $txtAdresse),['placeholder' => 'Adresse', 'class'=>'form-control']);
+                                echo '<br>';
+                                echo form_input('txtVille', set_value('txtVille', $txtVille),['placeholder' => 'Ville', 'class'=>'form-control']);
+                                echo '<br>';
+                                echo form_input('txtCP', set_value('txtCP', $txtCP),['placeholder' => 'Code postal', 'class'=>'form-control']);
+                                echo '<br>';
+                                echo form_input('txtEmail', set_value('txtEmail', $txtEmail),['placeholder' => 'Email', 'class'=>'form-control'],'email');
+                                echo '<br>';
+                                echo form_input('txtMdp', set_value('txtMdp'),['placeholder' => 'Mot de passe', 'class'=>'form-control','id'=>'mdp'],'password');
+                                echo '<br>';
+                                echo form_input('txtConfirmMdp', set_value('confirmMdp'),['placeholder' => 'Confirmez mot de passe', 'class'=>'form-control'],'password');
+                                echo '<br>';
+                                echo csrf_field();
+                                echo form_submit('submit', 'Valider', ['class' => 'btn btn-primary']);
+                                ?>
                                 
-                                
-                            <input type="submit" name="submit" class="btn btn-primary btn-md" value="Valider">
                             <div class="text-primary right">
                             <a class="btn btn-primary" href="<?php echo site_url('Visiteur/se_connecter') ?>">Se connecter</a>
                             </div>
                         </form>
+                        <br>
                     </div>
                 </div>
             </div>

@@ -3,9 +3,9 @@
 <div class='container-fluid '>
 
         	<div class="col-md-3 col-sm-6">
-            	<img class="navbar-brand" style="height:64px;" src="<?= base_url().'/assets/images/logo.jpg'?>" alt="Logo">
+            	<img class="navbar-brand" style="height:64px;" src="<?php echo base_url().'/assets/images/logo.jpg'?>" alt="Logo">
                 <a href="<?php echo site_url('Visiteur/flux_rss') ?>">
-                <img class="navbar-brand" style="height:60px;" src="<?= base_url().'/assets/images/rss.png'?>" width="60">
+                <img class="navbar-brand" style="height:60px;" src="<?php echo base_url().'/assets/images/rss.png'?>" width="60">
                 </a>
                 <BR>© Adrien Lorin, 2020 - D. Boucard and co
             </div>
@@ -28,6 +28,7 @@
         
         </div>
 </nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

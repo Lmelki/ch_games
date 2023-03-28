@@ -9,120 +9,83 @@ if ($session->has('cart')) {
 <head>
     <title>ChopesGames</title>
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() . 'assets/images/favicon.ico' ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('assets/images/favicon.ico') ?>">
     <link rel="alternate" type="application/rss+XML" title="ChopesGames" href="<?php echo site_url('AdministrateurSuper/flux_rss') ?>" />
 
-    <link rel="stylesheet" href="<?= css_url('bootstrap.min') ?>">
-    <link rel="stylesheet" href="<?= css_url('style') ?>">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="<?= js_url('bootstrap.min') ?>"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <link rel="stylesheet" href="<?php echo css_url('bootstrap.min') ?>"> -->
+    <!-- <link rel="stylesheet" href="<?php echo css_url('style') ?>"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-            <a class="navbar-brand" href="<?php echo site_url('Visiteur/accueil') ?>">
-                <img class="d-block" style="width:60px;height:38px;'" src="<?= base_url() . '/assets/images/logo.jpg' ?>" alt="Logo">
-            </a>
-            <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item">
-                    <a href="<?= site_url('Visiteur/accueil') ?>" class="btn btn-info">
-                        <span class="fas fa-home"></span>Accueil
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="btn btn-primary" href="<?= site_url('Visiteur/lister_les_produits') ?>">Lister tous les Produits</a>
-                </li>
-
-            </ul>
-        </div>
-
-
-
-
-        <div class="mx-auto order-0">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
+<!-- NOUVEAU -->
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="<?php echo site_url('Visiteur/accueil') ?>">
+        <img class="d-block rounded-circle" style="width:60px;height:48px;'" src="<?php echo base_url() . '/assets/images/logoGames.jpeg' ?>" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="<?php echo site_url('Visiteur/accueil') ?>">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('Visiteur/lister_les_produits') ?>">Afficher tous les produits</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mon compte
+          </a>
+          <ul class="dropdown-menu">
+            <?php if (!is_null($session->get('statut'))) { ?>
+            <?php if ($session->get('statut') == 1) { ?>
+                <li><a class="dropdown-item" href="<?php echo site_url('Client/historique_des_commandes') ?>">Mes commandes</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('Visiteur/s_enregistrer') ?>">Modifier mon compte</a></li>
+            <?php } elseif ($session->get('statut') == 3) { ?>
+                <li><a class="dropdown-item" href="?>">(2Do) Modifier mon compte</a></li>
+            <?php } ?>
+                <li><a class="dropdown-item" href="<?php echo site_url('Client/se_de_connecter') ?>">Se déconnecter</a></li>
+            <?php } else { ?>
+                <li><a class="dropdown-item" href="<?php echo site_url('Visiteur/se_connecter') ?>">Se connecter</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('Visiteur/s_enregistrer') ?>">S'enregistrer</a></li>
+            <?php } ?>
+          </ul>
+        </li>
+        <?php if (empty($session->get('statut'))) : ?>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('Visiteur/connexion_administrateur') ?>">Connexion Administrateur</a>
+        </li>
+        <?php endif; ?>
+        <li>
+            <button class="btn btn-md" href="<?php echo site_url('Visiteur/afficher_panier') ?>">
+                <span class="fas fa-shopping-cart"><?php if ($nb > 0) echo "($nb)" ?> panier</span>
             </button>
-        </div>
+        </li>
+        <?php if ($session->get('statut') == 2 or $session->get('statut') == 3) : ?>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Administration
+          </a>
+          <ul class="dropdown-menu">
 
-        <div class=" w-75 order-2 ">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <form class="form-inline" method="post" action="<?php echo site_url('Visiteur/lister_les_produits') ?>">
-                        <input class="form-control mr-sm-2" type="text" name="search" id='search' placeholder="Search">
-                        <button class="btn btn-success" type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </form>
-                </li>
-            </ul>
-        </div>
-
-
-
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="<?php echo site_url('Visiteur/afficher_panier') ?>" class="btn btn-info btn-md">
-                        <span class="fas fa-shopping-cart"><?php if ($nb > 0) echo "($nb)" ?></span>
-                    </a>
-                </li>
-
-                <?php if ($session->get('statut') == 2 or $session->get('statut') == 3) : ?>
-                    <li class="nav-item dropdown">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                            Administration
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="<?php echo site_url('AdministrateurEmploye/afficher_les_clients') ?>">Clients->Commandes</a>
-                            <a class="dropdown-item" href="">(2Do) Commandes non traitées</a>
-                            <?php if ($session->get('statut') == 3) { ?>
-                                <a class="dropdown-item" href="<?php echo site_url('AdministrateurSuper/ajouter_un_produit') ?>">Ajouter un produit</a>
-                                <a class="dropdown-item" href="<?php echo site_url('AdministrateurSuper/modifier_identifiants_bancaires_site') ?>">Modifier identifiants bancaires site</a>
-                            <?php } ?>
-                        </div>
-                    </li>
-                <?php endif; ?>
-
-
-                <li class="nav-item dropdown">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Mon compte
-                    </button>
-                    <div class="dropdown-menu">
-                        <?php if (!is_null($session->get('statut'))) { ?>
-                            <?php if ($session->get('statut') == 1) { ?>
-                                <a class="dropdown-item" href="<?php echo site_url('Client/historique_des_commandes') ?>">Mes commandes</a>
-                                <a class="dropdown-item" href="<?php echo site_url('Visiteur/s_enregistrer') ?>">Modifier son compte</a>
-                            <?php } elseif ($session->get('statut') == 3) { ?>
-                                <a class="dropdown-item" href="?>">(2Do) Modifier son compte</a>
-                            <?php } ?>
-                            <a class="dropdown-item" href="<?php echo site_url('Client/se_de_connecter') ?>">Se déconnecter</a>
-                        <?php } else { ?>
-                            <a class="dropdown-item" href="<?php echo site_url('Visiteur/se_connecter') ?>">Se connecter</a>
-                            <a class="dropdown-item" href="<?php echo site_url('Visiteur/s_enregistrer') ?>">S'enregister</a>
-                        <?php } ?>
-                    </div>
-                </li>
-
-                <li>
-                </li>
-                <li>
-                </li>
-                <?php if (empty($session->get('statut'))) : ?>
-                    <li class="nav-item droite">
-                        <a href="<?php echo site_url('Visiteur/connexion_administrateur') ?>" class="fas fa-lock"></a>
-                    </li>
-                <?php endif; ?>
-            </ul>
-        </div>
-    </nav>
+                <li><a class="dropdown-item" href="<?php echo site_url('AdministrateurEmploye/afficher_les_clients') ?>">Clients - Commandes</a></li>
+                <li><a class="dropdown-item" href="">(2Do) Commandes non traitées</a></li>
+            <?php if ($session->get('statut') == 3) { ?>
+                <li><a class="dropdown-item" href="<?php echo site_url('AdministrateurSuper/ajouter_un_produit') ?>">Ajouter un produit</a></li>
+                <li><a class="dropdown-item" href="<?php echo site_url('AdministrateurSuper/modifier_identifiants_bancaires_site') ?>">Modifier les identifiants bancaires site</a></li>
+            <?php } ?>
+          </ul>
+        </li>
+        <?php endif; ?>
+      </ul>
+      <form class="d-flex" role="search" method="post" action="<?php echo site_url('Visiteur/lister_les_produits') ?>">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Recherche</button>
+      </form>
+    </div>
+  </div>
+</nav>
     <main>

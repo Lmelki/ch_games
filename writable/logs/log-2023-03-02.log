@@ -1,0 +1,36 @@
+ERROR - 2023-03-02 07:54:28 --> Error connecting to the database: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+CRITICAL - 2023-03-02 07:54:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+ERROR - 2023-03-02 07:54:53 --> Error connecting to the database: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+CRITICAL - 2023-03-02 07:54:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+#0 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\BTS SIO\Desktop\ChopesGames\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\BTS SIO\Desktop\ChopesGames\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\BTS SIO\Desktop\ChopesGames\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\BTS SIO\Desktop\ChopesGames\app\Models\ModeleProduit.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\BTS SIO\Desktop\ChopesGames\app\Controllers\Visiteur.php(20): App\Models\ModeleProduit->retourner_vitrine()
+#6 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(824): App\Controllers\Visiteur->accueil()
+#7 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Visiteur))
+#8 C:\Users\BTS SIO\Desktop\ChopesGames\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\BTS SIO\Desktop\ChopesGames\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\BTS SIO\Desktop\ChopesGames\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\BTS SI...')
+#11 {main}
+INFO - 2023-03-02 07:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-02 07:56:05 --> CSRF cookie sent.
+INFO - 2023-03-02 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-02 08:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-02 08:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-02 08:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

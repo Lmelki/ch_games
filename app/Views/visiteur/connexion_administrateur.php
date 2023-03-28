@@ -4,7 +4,6 @@
 $attributes = [
     'class' => 'text-primary',
 ];
-  echo service('validation')->listErrors();
   echo form_open('visiteur/connexion_administrateur');
   echo form_label('Identifiant','txtIdentifiant', $attributes);
   echo form_input('txtIdentifiant', set_value('txtIdentifiant'), "class='col-md-3 form-control'");    
