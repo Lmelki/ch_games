@@ -50,7 +50,7 @@ class ModeleProduit extends Model
     {
     return $this->select('NOMIMAGE')->where(['NOPRODUIT' => $id])->first();
     }
- public function retournerId($slug)
+    public function retournerId($slug)
     {
     return $this->select('NOPRODUIT')->where(['NOMIMAGE' => $slug])->first();
     }

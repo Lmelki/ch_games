@@ -35,6 +35,16 @@ if ($session->has('cart')) {
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url('Visiteur/lister_les_produits') ?>">Afficher tous les produits</a>
         </li>
+        <!-- AJOUT DE LA LISTE DEROULANTE -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catégories
+          </a>
+          <ul class="dropdown-menu">
+                 <?php foreach ($categories as $categorie){ echo '<li class="dropdown-item">'.anchor('Visiteur/lister_les_produits_par_categorie/'
+                  .$categorie["NOCATEGORIE"],$categorie["LIBELLE"]). '</li>'; ?><?php } ?>
+          </ul>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mon compte
@@ -80,7 +90,6 @@ if ($session->has('cart')) {
           </ul>
         </li>
         <?php endif; ?>
-      </ul>
       <form class="d-flex" role="search" method="post" action="<?php echo site_url('Visiteur/lister_les_produits') ?>">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Recherche</button>

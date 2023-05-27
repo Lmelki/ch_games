@@ -88,8 +88,8 @@ class Visiteur extends BaseController
             $categorie = $modelCat->retourner_categories($nocategorie);
             $data['categories'] = $modelCat->retourner_categories();
     
-      $data['TitreDeLaPage'] = $categorie["LIBELLE"];
-      $modelProd = new ModeleProduit();
+            $data['TitreDeLaPage'] = $categorie["LIBELLE"];
+            $modelProd = new ModeleProduit();
             $data["lesProduits"] = $modelProd->retouner_produits_categorie($nocategorie)->paginate(12);
             $data['pager'] = $modelProd->pager;
      
@@ -309,7 +309,6 @@ class Visiteur extends BaseController
     public function se_connecter()
     {
         helper(['form']);
-        // $validation =  \Config\Services::validation();
         $session = session();
         $data['TitreDeLaPage'] = 'Se connecter';
         $rules = [ //régles de validation
@@ -317,17 +316,6 @@ class Visiteur extends BaseController
             'txtMdp'   => 'required|is_not_unique[client.MOTDEPASSE,id,{id}]'
         ];
 
-        // $messages = [ //message à renvoyer en cas de non respect des règles de validation
-        //     'txtEmail' => [
-        //         'required' => 'Un Email est requis',
-        //         'valid_email' => 'Un Email valide est requis',
-        //         'is_not_unique' => 'Adresse E-mail incorrecte',
-        //     ],
-        //     'txtMdp'    => [
-        //         'required' => 'Un mot de passe est requis',
-        //         'is_not_unique' => 'Mot de passe incorrect',
-        //     ]
-        // ];
         $modelCat = new ModeleCategorie();
         $data['categories'] = $modelCat->retourner_categories();
         if (!$this->validate($rules)) {
@@ -342,8 +330,6 @@ class Visiteur extends BaseController
             $UtilisateurRetourne = $modelCli->retourner_clientParMail($Identifiant);
 
             if (!$UtilisateurRetourne == null) {
-                // if (password_verify($MdP,$UtilisateurRetourne->MOTDEPASSE))
-                // PAS D'ENCODAGE DU MOT DE PASSE POUR FACILITATION OPERATIONS DE TESTS (ENCODAGE A FAIRE EN PRODUCTION!)
                 if ($MdP == $UtilisateurRetourne["MOTDEPASSE"]) {
                     if (!empty($session->get('statut'))) {
                         unset($_SESSION['cart']);
@@ -434,4 +420,51 @@ class Visiteur extends BaseController
         }
     //else redirect 404 adaptée ?
       }
+      public function droit_a_l_oubli() {
+        helper(['form']);
+        $session = session();
+        $data['TitreDeLaPage'] = 'Confirmer la suppression du compte';
+        $rules = [ //régles de validation
+            'txtEmail' => 'required|valid_email|is_not_unique[client.EMAIL,id,{id}]',
+            'txtMdp'   => 'required|is_not_unique[client.MOTDEPASSE,id,{id}]'
+        ];
+
+        $modelCat = new ModeleCategorie();
+        $data['categories'] = $modelCat->retourner_categories();
+        if (!$this->validate($rules)) {
+            if ($this->request->getMethod()=='post') // si c'est une tentative d'enregistrement // erreur IDE !!
+                $data['TitreDeLaPage'] = "Corriger votre formulaire";
+            else   $data['TitreDeLaPage'] = "Confirmer la suppression du compte";
+        } else {
+            $modelCli = new ModeleClient();
+            $Identifiant = esc($this->request->getPost('txtEmail'));
+            $MdP = esc($this->request->getPost('txtMdp'));
+
+            $UtilisateurRetourne = $modelCli->retourner_clientParMail($Identifiant);
+
+            if (!$UtilisateurRetourne == null) {
+                if ($MdP == $UtilisateurRetourne["MOTDEPASSE"]) {
+                    
+                    $id_anonyme = $UtilisateurRetourne['NOCLIENT'];
+                    // $id_anonyme = $session->get('id');
+                    $client_anonyme = [
+                        'MOTDEPASSE' => "oih,ygb=)_85681AHGBTjfh" ,  
+                        'EMAIL' => "client@anonyme" ,
+                        'CODEPOSTAL' => null ,
+                        'VILLE' => null,
+                        'ADRESSE' => null, 
+                        'PRENOM' => "anonyme" ,
+                        'NOM' => "client inconu",
+                    ];
+                    $modelCli->update($id_anonyme, $client_anonyme);
+                    $session->destroy();
+                    return redirect()->to('Visiteur/accueil');
+                } 
+            } 
+        }
+        $data['TitreDeLaPage'] = "Modifier mon profil";
+        return view('templates/header', $data)
+        .view('visiteur/s_enregistrer')
+        .view('templates/footer');
+    }
 }

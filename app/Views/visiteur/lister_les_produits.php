@@ -1,10 +1,16 @@
 
  <?php $session = session(); ?>
- <h2 class='titrepage'><?php echo $TitreDeLaPage ?></h2><hr/> 
+ <h2 class='titrepage text-center text-primary'><?php echo $TitreDeLaPage ?></h2><hr/> 
 
 <div class="container-fluid">
  <div class="row">
-   <div class="col-sm-12">
+ <div class="col-sm-2 marque">
+      <h5>Catégories:</h5>
+      <ul class="list-group">
+        <?php foreach ($categories as $categorie){ echo '<li class="list-group-item">'.anchor('Visiteur/lister_les_produits_par_categorie/'.$categorie["NOCATEGORIE"],$categorie["LIBELLE"]). '</li>'; ?><?php } ?>
+      </ul>
+    </div>
+   <div class="col-sm-10 p-5">
    <div class="container">
          <div class="row">
          <?php if($lesProduits==null){echo '<h3>Aucun produit correspondant à cette recherche</h3>';} ?>

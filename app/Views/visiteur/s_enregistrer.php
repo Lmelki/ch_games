@@ -1,4 +1,5 @@
 
+    <?php $session = session();?>
     <div>
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -29,12 +30,43 @@
                                 echo csrf_field();
                                 echo form_submit('submit', 'Valider', ['class' => 'btn btn-primary']);
                                 ?>
-                                
-                            <div class="text-primary right">
-                            <a class="btn btn-primary" href="<?php echo site_url('Visiteur/se_connecter') ?>">Se connecter</a>
-                            </div>
                         </form>
+                        <div class="text-primary text-end m-2">
+                            <?php if($TitreDeLaPage=="Modifier mon profil") { ?>
+                            <a type="button" class="btn btn-outline-primary mr-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" 
+                            href="<?php echo site_url('Visiteur/droit_a_l_oubli') ?>">
+                            Droit à l'oubli</a>
+                            <?php } ?>
+                            <a class="btn btn-outline-primary" href="<?php echo site_url('Visiteur/se_connecter') ?>">Se connecter</a>
+                        </div>
                         <br>
+                        <!-- LE MODALE DE DROIT A L4OUBLI COMMENCE ICI -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center text-primary" id="exampleModalLabel"><?php echo $TitreDeLaPage ?></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <h6 class="text-center text-danger">Attention cette action est irréversible ! </h6>
+                            <?php  echo form_open('Visiteur/droit_a_l_oubli') ?>
+                            <br>                            
+                            <?php
+                                echo form_input('txtEmail', set_value('txtEmail'),['placeholder' => 'Email', 'class'=>'form-control'],'email');
+                                echo '<br>';
+                                echo form_input('txtMdp', set_value('txtMdp'),['placeholder' => 'Mot de passe', 'class'=>'form-control','id'=>'mdp'],'password');
+                                echo '<br>';
+                                echo csrf_field();
+                            ?>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                               <?php echo form_submit('submit', 'Confirmer la suppression', ['class' => 'btn btn-primary btn-md']); ?>
+                            </div>
+                            </form>
+                        </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
